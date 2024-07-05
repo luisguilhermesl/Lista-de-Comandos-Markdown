@@ -24,6 +24,8 @@ Existem duas formas de inserir link em Markdown, através de um link direto ou u
 
 **Texto-âncora**: Utilize os caracteres `[]` `()`, adicionando entre chaves o texto que você quer que apareça, e entre os parênteses, o endereço de destino, no formato `[exemplo](https://exemplo.com/)`.
 
+[Google](google.com)
+
 **Link direto**: Envolva o endereço da web em chaves `<>`. O endereço ficará visível e será clicável pelo usuário.
 O endereço em forma de link direto tem o formato <https://exemplo.com/>.
 
@@ -31,8 +33,8 @@ O endereço em forma de link direto tem o formato <https://exemplo.com/>.
 Para listas não ordenadas, utilize um asterisco `*` na frente to item da lista:
 
 * Item 1
-* Item 2
-* Item 3
+- Item 2
++ Item 3
 
 Para listas ordenadas, utilize o número do item seguido de ponto . :
 
@@ -44,7 +46,9 @@ Para listas ordenadas, utilize o número do item seguido de ponto . :
 O código para inserir uma imagem no conteúdo é semelhante ao código de inserir links-âncora, adicionando um ponto de exclamação `!` no início do código, como no exemplo abaixo:
 
 `![Alt ou título da imagem](URL da imagem)`
-Esta é uma linha com uma imagem personalizada Eddie Feliz.
+
+Coelho:
+![Coelho](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPbu-DRAeq30BZY75OYVO0fKp4JOgqFtCg0A&s)
 
 Imagens grandes podem estar em linhas individuais, para serem exibidas em maior tamanho.
 
